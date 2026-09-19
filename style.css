@@ -25,12 +25,19 @@ section {
         font-style : italic;
         font-weight : bold;
     }
-    article {
-        margin : 12px;
-        padding : 12px;
-        border : 2px solid #ca8;
-        background : #ddb
-    }
+}
+
+.math {
+    word-spacing : 0.5em;
+    font-weight : bold;
+    ol { list-style-type: lower-alpha; }
+}
+
+article {
+    margin : 12px;
+    padding : 12px;
+    border : 2px solid #ca8;
+    background : #ddb
 }
 
 footer {
