@@ -1,0 +1,44 @@
+body {
+    font-size : 18px;
+    background : #bba;
+}
+
+p, h2 {
+    margin-bottom : 6px;
+    margin-top : 0px;
+}
+
+iframe {
+  width: 100%;
+  border: none; /* Optional: removes the default border */
+  height: 500px; /* Set whatever height or percentage you need */
+}
+
+section {
+    margin : 24px auto;
+    padding : 12px;
+    width : 80%;
+    background : #ddc;
+    box-shadow : 0 0 6px 2px #333;
+    time {
+        font-size : 13px;
+        font-style : italic;
+        font-weight : bold;
+    }
+    article {
+        margin : 12px;
+        padding : 12px;
+        border : 2px solid #ca8;
+        background : #ddb
+    }
+}
+
+footer {
+    text-align : center;
+    background : #9ca;
+    border : 2px solid #7cb;
+    p {
+        display : flex;
+        justify-content : space-evenly; 
+    }
+}
