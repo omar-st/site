@@ -1,7 +1,7 @@
 body {
     margin : 0 auto;
     padding : 8px  10px;
-    width : 75%;
+    width: clamp(320px, 70%, 1080px);
     font-size : 16px;
     border : 3px solid #000000;
     background : #607080;
