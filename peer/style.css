@@ -2,7 +2,7 @@ body {
     margin : 0 auto;  
     padding : 5px 15px;
     width: clamp(320px, 90%, 1080px); 
-    box-shadow : 0 0 10px 2px #333333;
+    box-shadow : 0 0 10px 2px #333;
     background-color: #363; 
 }
 
@@ -39,13 +39,20 @@ article {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
-  box-shadow : 0 0 10px 2px #333333;
+  box-shadow : 0 0 10px 2px #333;
 }
 
 img {
     border : none;
     width : 45%;
     height : auto;
+}
+
+.cite {
+    font-size : 12px;
+    font-style : italic;
+    font-weight : bold;
+    text-align: right;
 }
 
 nav, article, footer, nav ul li a {
@@ -73,7 +80,7 @@ nav ul li a {
 }
 
 footer {
-    border : 3px solid #142830;
+    border : 3px solid #123;
     padding : 15px;
     margin-bottom : 10px;
     text-align : center;
